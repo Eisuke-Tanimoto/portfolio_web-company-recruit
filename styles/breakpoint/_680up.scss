@@ -1,0 +1,46 @@
+.menu-btn {
+  display: none;
+
+}
+
+.header {
+  &__nav {
+    display: flex;
+  }
+}
+
+.recruit__title {
+  & > h1 {
+    display: inline-block;
+  }
+}
+
+.recruitment {
+
+  &__container {
+
+    &__inner {
+      width: 80%;
+    }
+
+    &__dl {
+      flex-direction: row;
+    }
+
+    &__dt {
+      width: 20%;
+      padding-bottom: 0px;
+    }
+
+    &__dd {
+      width: 80%;
+    }
+  }
+}
+
+.footer {
+  &__nav {
+    justify-content: center;
+
+  }
+}
